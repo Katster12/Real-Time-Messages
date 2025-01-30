@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import Tabs from "./navigation/Tabs";
 import ChatBox from "./pages/Messages/ChatBox";
 import UsertDetail from "./pages/UserDetail.tsx";
+import { client, account } from "./appwriteConfig";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -93,5 +94,11 @@ const App: React.FC = () => {
     </IonApp>
   );
 };
+
+
+
+
+
+
 
 export default App;
